@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+  background-color: #ffb6c1;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+header h2 {
+  margin: 5px 0 20px 0;
+  font-weight: normal;
+  color: #fff;
+}
+
+button {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+#cvContent {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h3 {
+  margin-top: 0;
+  color: #ff1493;
+  border-bottom: 2px solid #ffb6c1;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+p, li {
+  line-height: 1.6;
+}
